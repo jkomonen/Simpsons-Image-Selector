@@ -14,6 +14,7 @@ let imageList = [
   "https://i.imgur.com/3uY4bCd.png"
 ];
 
+  //
   const imgs = document.getElementsByTagName("img");
   for (let i = 0; i < imgs.length; i++) {
       imgs[i].src = imageList[Math.floor(Math.random() * imageList.length)];
